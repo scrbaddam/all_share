@@ -1,0 +1,8 @@
+curl --location --request POST 'https://idppreviewkeycloak.centralus.cloudapp.azure.com/realms/IDP/protocol/openid-connect/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'client_id=idpdevteam' \
+--data-urlencode 'grant_type=password' \
+--data-urlencode 'client_secret=EzvCO94uU7HEiULnGKK8eLrZeCfvpMZJ' \
+--data-urlencode 'scope=openid' \
+--data-urlencode 'username=designer@ads.com' \
+--data-urlencode 'password=ads@123'
